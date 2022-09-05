@@ -6,4 +6,6 @@ import java.util.UUID;
 
 public interface BeerService {
     BeerDto getBeetById(UUID beerId);
+
+    BeerDto saveNewBeer(BeerDto beerDto);
 }

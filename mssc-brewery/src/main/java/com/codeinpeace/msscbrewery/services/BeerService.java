@@ -5,7 +5,7 @@ import com.codeinpeace.msscbrewery.web.model.BeerDto;
 import java.util.UUID;
 
 public interface BeerService {
-    BeerDto getBeetById(UUID beerId);
+    BeerDto getBeerById(UUID beerId);
 
     BeerDto saveNewBeer(BeerDto beerDto);
 

@@ -1,4 +1,4 @@
-package com.codeinpeace.msscbeerservice.service;
+package com.codeinpeace.msscbeerservice.services;
 
 import com.codeinpeace.msscbeerservice.web.model.BeerDto;
 import com.codeinpeace.msscbeerservice.web.model.BeerPagedList;

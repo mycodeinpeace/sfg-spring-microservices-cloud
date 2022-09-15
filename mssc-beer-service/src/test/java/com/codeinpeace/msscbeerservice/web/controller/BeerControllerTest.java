@@ -1,7 +1,7 @@
 package com.codeinpeace.msscbeerservice.web.controller;
 
 import com.codeinpeace.msscbeerservice.bootstrap.BeerLoader;
-import com.codeinpeace.msscbeerservice.service.BeerService;
+import com.codeinpeace.msscbeerservice.services.BeerService;
 import com.codeinpeace.msscbeerservice.web.model.BeerDto;
 import com.codeinpeace.msscbeerservice.web.model.BeerStyleEnum;
 import com.fasterxml.jackson.databind.ObjectMapper;

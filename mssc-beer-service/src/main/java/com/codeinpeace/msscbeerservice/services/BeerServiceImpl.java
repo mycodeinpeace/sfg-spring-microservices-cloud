@@ -1,4 +1,4 @@
-package com.codeinpeace.msscbeerservice.service;
+package com.codeinpeace.msscbeerservice.services;
 
 import com.codeinpeace.msscbeerservice.domain.Beer;
 import com.codeinpeace.msscbeerservice.repositories.BeerRepository;

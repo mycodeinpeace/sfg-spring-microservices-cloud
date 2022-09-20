@@ -1,4 +1,4 @@
-package com.codeinpeace.msscbeerservice.services;
+package com.codeinpeace.msscbeerservice.services.brewing;
 
 import com.codeinpeace.msscbeerservice.config.JmsConfig;
 import com.codeinpeace.msscbeerservice.domain.Beer;

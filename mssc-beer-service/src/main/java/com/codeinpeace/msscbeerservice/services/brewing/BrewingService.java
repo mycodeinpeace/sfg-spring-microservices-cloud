@@ -2,7 +2,7 @@ package com.codeinpeace.msscbeerservice.services.brewing;
 
 import com.codeinpeace.msscbeerservice.config.JmsConfig;
 import com.codeinpeace.msscbeerservice.domain.Beer;
-import com.codeinpeace.msscbeerservice.events.BrewBeerEvent;
+import com.codeinpeace.common.events.BrewBeerEvent;
 import com.codeinpeace.msscbeerservice.repositories.BeerRepository;
 import com.codeinpeace.msscbeerservice.services.inventory.BeerInventoryService;
 import com.codeinpeace.msscbeerservice.web.mappers.BeerMapper;

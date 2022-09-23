@@ -2,6 +2,6 @@
 
 package com.codeinpeace.beer.order.service.domain;
 
-public enum  OrderStatusEnum {
+public enum BeerOrderStatusEnum {
     NEW, READY, PICKED_UP
 }

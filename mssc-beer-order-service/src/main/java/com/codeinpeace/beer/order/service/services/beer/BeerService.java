@@ -1,6 +1,6 @@
 package com.codeinpeace.beer.order.service.services.beer;
 
-import com.codeinpeace.beer.order.service.web.model.BeerDto;
+import com.codeinpeace.brewery.model.BeerDto;
 
 import java.util.Optional;
 import java.util.UUID;

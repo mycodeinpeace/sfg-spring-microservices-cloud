@@ -1,4 +1,4 @@
-package com.codeinpeace.beer.inventory.service.web.model;
+package com.codeinpeace.brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

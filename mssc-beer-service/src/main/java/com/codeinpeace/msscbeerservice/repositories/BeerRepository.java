@@ -1,11 +1,10 @@
 package com.codeinpeace.msscbeerservice.repositories;
 
 import com.codeinpeace.msscbeerservice.domain.Beer;
-import com.codeinpeace.msscbeerservice.web.model.BeerStyleEnum;
+import com.codeinpeace.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.UUID;
 

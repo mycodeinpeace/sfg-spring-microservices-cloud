@@ -3,8 +3,8 @@
 package com.codeinpeace.beer.order.service.services;
 
 
-import com.codeinpeace.beer.order.service.web.model.BeerOrderDto;
-import com.codeinpeace.beer.order.service.web.model.BeerOrderPagedList;
+import com.codeinpeace.brewery.model.BeerOrderDto;
+import com.codeinpeace.brewery.model.BeerOrderPagedList;
 import org.springframework.data.domain.Pageable;
 
 import java.util.UUID;

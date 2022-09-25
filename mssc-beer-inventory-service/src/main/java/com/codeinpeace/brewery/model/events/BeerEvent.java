@@ -1,18 +1,19 @@
-package com.codeinpeace.common.events;
+package com.codeinpeace.brewery.model.events;
 
-import com.codeinpeace.msscbeerservice.web.model.BeerDto;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 @Builder
+@NoArgsConstructor
 public class BeerEvent implements Serializable {
 
     static final long serialVersionUID = -5781515597148163111L;
 
     private BeerDto beerDto;
-
 }

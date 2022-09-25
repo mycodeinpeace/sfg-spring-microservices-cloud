@@ -1,4 +1,4 @@
-package com.codeinpeace.beer.order.service.web.model;
+package com.codeinpeace.brewery.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

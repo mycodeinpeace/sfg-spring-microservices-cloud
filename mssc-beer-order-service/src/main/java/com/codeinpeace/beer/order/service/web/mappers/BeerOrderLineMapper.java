@@ -1,7 +1,7 @@
 package com.codeinpeace.beer.order.service.web.mappers;
 
 import com.codeinpeace.beer.order.service.domain.BeerOrderLine;
-import com.codeinpeace.beer.order.service.web.model.BeerOrderLineDto;
+import com.codeinpeace.brewery.model.BeerOrderLineDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

@@ -2,8 +2,8 @@ package com.codeinpeace.beer.order.service.web.mappers;
 
 import com.codeinpeace.beer.order.service.domain.BeerOrderLine;
 import com.codeinpeace.beer.order.service.services.beer.BeerService;
-import com.codeinpeace.beer.order.service.web.model.BeerDto;
-import com.codeinpeace.beer.order.service.web.model.BeerOrderLineDto;
+import com.codeinpeace.brewery.model.BeerDto;
+import com.codeinpeace.brewery.model.BeerOrderLineDto;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Optional;

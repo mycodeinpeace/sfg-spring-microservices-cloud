@@ -1,4 +1,4 @@
-package com.codeinpeace.common.events;
+package com.codeinpeace.brewery.model.events;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

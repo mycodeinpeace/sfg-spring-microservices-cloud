@@ -1,6 +1,5 @@
 package com.codeinpeace.brewery.model.events;
 
-import com.codeinpeace.brewery.model.BeerOrderDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

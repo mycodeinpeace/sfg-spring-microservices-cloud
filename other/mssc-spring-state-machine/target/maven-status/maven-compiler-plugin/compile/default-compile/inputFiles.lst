@@ -1,0 +1,6 @@
+E:\Github\sfg-spring-microservices-cloud\mssc-spring-state-machine\src\main\java\com\codeinpeace\msscspringstatemachine\domain\Payment.java
+E:\Github\sfg-spring-microservices-cloud\mssc-spring-state-machine\src\main\java\com\codeinpeace\msscspringstatemachine\config\StateMachineConfig.java
+E:\Github\sfg-spring-microservices-cloud\mssc-spring-state-machine\src\main\java\com\codeinpeace\msscspringstatemachine\repository\PaymentRepository.java
+E:\Github\sfg-spring-microservices-cloud\mssc-spring-state-machine\src\main\java\com\codeinpeace\msscspringstatemachine\domain\PaymentEvent.java
+E:\Github\sfg-spring-microservices-cloud\mssc-spring-state-machine\src\main\java\com\codeinpeace\msscspringstatemachine\domain\PaymentState.java
+E:\Github\sfg-spring-microservices-cloud\mssc-spring-state-machine\src\main\java\com\codeinpeace\msscspringstatemachine\MsscSpringStateMachineApplication.java

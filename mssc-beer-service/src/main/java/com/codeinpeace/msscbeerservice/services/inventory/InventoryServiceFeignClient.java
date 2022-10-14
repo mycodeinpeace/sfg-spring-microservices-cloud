@@ -1,5 +1,6 @@
 package com.codeinpeace.msscbeerservice.services.inventory;
 
+import com.codeinpeace.msscbeerservice.config.FeignClientConfig;
 import com.codeinpeace.msscbeerservice.services.inventory.model.BeerInventoryDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 import java.util.UUID;
 
-@FeignClient(name = "inventory-service")
+@FeignClient(name = "inventory-service", configuration = FeignClientConfig.class)
 public interface InventoryServiceFeignClient {
 
     @RequestMapping(method = RequestMethod.GET, value = BeerInventoryServiceRestTemplateImpl.INVENTORY_PATH)

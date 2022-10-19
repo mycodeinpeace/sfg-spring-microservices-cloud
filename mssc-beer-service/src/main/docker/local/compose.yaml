@@ -38,6 +38,16 @@ services:
       SPRING_ARTEMIS_HOST: jms
       EUREKA_INSTANCE_PREFER_IP_ADDRESS: 'true'
     restart: on-failure
+  inventory-failover:
+    image: codeinpeace/mssc-inventory-failover
+    ports:
+      - 8083:8083
+    depends_on:
+      - eureka
+      - config
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://netflix:eureka@eureka:8761/eureka/
+      EUREKA_INSTANCE_PREFER_IP_ADDRESS: 'true'
   beer-service:
     image: codeinpeace/mssc-beer-service
     ports:
@@ -83,6 +93,7 @@ services:
       - inventory
       - beer-service
       - order-service
+      - inventory-failover
     environment:
       SPRING_PROFILES_ACTIVE: local-discovery
       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://netflix:eureka@eureka:8761/eureka/

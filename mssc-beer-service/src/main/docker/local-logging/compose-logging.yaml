@@ -59,6 +59,9 @@ services:
       SPRING_ARTEMIS_HOST: jms
       EUREKA_INSTANCE_PREFER_IP_ADDRESS: 'true'
     restart: on-failure
+    labels:
+      collect_logs_with_filebeat: "true"
+      decode_log_event_to_json_object: "true"
   inventory-failover:
     image: codeinpeace/mssc-inventory-failover
     ports:
@@ -86,6 +89,9 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mysql://host.docker.internal:3306/beerservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
       SPRING_ARTEMIS_HOST: jms
     restart: on-failure
+    labels:
+      collect_logs_with_filebeat: "true"
+      decode_log_event_to_json_object: "true"
   order-service:
     image: codeinpeace/mssc-beer-order-service
     ports:
@@ -104,6 +110,9 @@ services:
       SPRING_ARTEMIS_HOST: jms
       SFG_BREWERY_BEER-SERVICE-HOST: http://beer-service:8080
     restart: on-failure
+    labels:
+      collect_logs_with_filebeat: "true"
+      decode_log_event_to_json_object: "true"
   gateway:
     image: codeinpeace/mssc-brewery-gateway
     ports:
@@ -119,3 +128,6 @@ services:
       SPRING_PROFILES_ACTIVE: local-discovery
       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://netflix:eureka@eureka:8761/eureka/
     restart: on-failure
+    labels:
+      collect_logs_with_filebeat: "true"
+      decode_log_event_to_json_object: "true"

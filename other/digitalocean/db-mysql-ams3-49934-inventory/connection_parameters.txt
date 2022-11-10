@@ -1,0 +1,6 @@
+username = doadmin
+password = AVNS_z2PDUyV9-_JAbYlqtEi
+host = db-mysql-ams3-49934-inventory-do-user-12836184-0.b.db.ondigitalocean.com
+port = 25060
+database = defaultdb
+sslmode = REQUIRED
